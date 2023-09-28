@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href ="formatting.css">
+
     <title>About Me: Cooking With Joe</title>
     <meta name="description" content="A discussion on Chef Joe" />
     <meta name="keywords" content="About Me, Chef Joe, Cooking Personality" />
@@ -9,22 +11,40 @@
   </head>
 
   <body>
-    <h1>About Me: Chef Joe!</h1>
+    
+    <div class="menu">
+      <a class ="logo" href="index.html"> <p class = "logo">Cooking With Joe</p>
+      <a href = "index.html"> <p>Home</p> </a>
+      <a href = "recipielist.html"> <p>Recipes</p> </a>
+      <a class="active" href = "aboutme.html"> <p>About Me</p> </a>
+      <a href = "QnA.html"> <p>Questions Answered</p> </a>
+  </div>
 
+<<<<<<< HEAD
+  <div class = "recipeList">
+    <div class = "recipeType">
+    <img class = "imgChef" src="Chef%20Joe.png" 
+    alt="Chef Joe" 
+=======
     <img src="Chef%20Joe.png" alt="Chef Joe" 
+>>>>>>> 5224d43e999dddc9eecdc2245decf95ac28aaac9
     />
-
-    <blockquote>
+    </div>
+     
+    <div class = "recipeType">
+    <p class= "blockquote">
       "Cooking is a craft, I like to think, and a good cook is a craftsman --
       not an artist. There's nothing wrong with that: The great cathedrals of
       Europe were built by craftsmen -- though not designed by them. Practicing
       your craft in expert fashion is noble, honorable, and satisfying."
       -Anthony Bourdain
-    </blockquote>
+    </p>
+    </div>
+      </div>
+    
+
     <p>
       Hello. My name is Joseph, but most know me as simply "Chef Joe".
-      <br />
-      <br />
       <i>(Ok, nobody calls me "Chef Joe", but that doesn't matter!!!)</i>
     </p>
 
@@ -37,8 +57,8 @@
       happier when I'm working on cooking a new dish, or trying out a new
       technique.
     </p>
-
-    <h3>Here are some of my most favorite things:</h3>
+  </div>
+    <h2>Here are some of my most favorite things:</h2>
 
     <ul>
       <li>Favorite Movie: Everything Everywhere All at Once!</li>
@@ -52,7 +72,7 @@
         >-Hellen Keller
       </li>
 
-      <li>Favorite Song: Hazard Duty Pay! - JPEGMafia
+      <li>Favorite Song: DVD Menu - Phoebe Bridgers 
       <audio controls>
         <source
           src="01%20DVD%20Menu.mp3"
@@ -63,79 +83,13 @@
     </li>
   </ul>
       <br />
+  
     
-
-    <h3>Favorite Cooking Questions Answered:</h3>
-
-    <table>
-      <thead>
-        <tr>
-          <th></th>
-          <th>Topic</th>
-          <th>Answer</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td></td>
-          <td>Ingredients</td>
-          <td>Onions, Peppers, and Garam Masala</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>Proteins</td>
-          <td>Chicken Thighs, Eggs, although Garbanzo Beans are also good</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>Sauces</td>
-          <td>Ketchup, Anything involving Greek yogurt, Soy Sauce</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>Spices</td>
-          <td>Salt, Pepper, Tumeric, Ginger Garlic Paste</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>Carbs</td>
-          <td>Rice, Fresh Bread, Fufu, Ugali</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>Drinks<br /></td>
-          <td>Water, Apple Juice, Ginger Soda's</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <h3>
-      If you want to submit a question, make sure to fill out the form below:
-    </h3>
-    <form>
-      <label for="firstname">First Name:</label>
-      <br />
-      <input type="text" id="firstname" name="firstname" />
-      <br />
-      <label for="lastname">Last Name:</label>
-      <br />
-      <input type="text" id="lastname" name="lastname" />
-      <br />
-      <label for="question">Cooking Question:</label>
-      <br />
-      <input type="text" id="question" name="question" />
-      <br />
-      <input type="submit" value="Submit!">
-    </form>
-
-    <a href="index.html">
-      <h3>Back to main page</h3>
-    </a>
     <footer>
-      <h5>
+      <p>
         © 2023 Chef Joe, subsidiary of Conde Nast, made using raw HTML coding,
         no Wordpress or WIX here!!!
-      </h5>
+      </p>
     </footer>
   </body>
 </html>
